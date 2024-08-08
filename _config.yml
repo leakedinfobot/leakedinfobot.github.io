@@ -4,6 +4,3 @@ plugins:
 
 title: Leakedinfobot
 description: Телеграм бот для поиска и получения информации.
-
-show_downloads: ["true" or "false" (unquoted) to indicate whether to provide a download URL]
-google_analytics: [Your Google Analytics tracking ID]
