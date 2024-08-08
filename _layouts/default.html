@@ -30,9 +30,9 @@
           <p class="desktop-only">{{ site.description | default: site.github.project_tagline }}</p>
         {% endif %}
 
-       <p class="desktop-only"> <a href="/leakedinfobot/" class="blue-button mobile-only">Перейти в бота</a> </p>
+       <a href="/leakedinfobot/" class="blue-button mobile-only">Перейти в бота</a>
         
-        <p class="view"><a href="/leakedinfobot/">Перейти в бота <small>{{ github_name }}</small></a></p>
+        <p class="desktop-only">  class="view"><a href="/leakedinfobot/">Перейти в бота <small>{{ github_name }}</small></a></p>
         <ul>
         {% if site.show_downloads %}
           <li><a href="{{ site.github.zip_url }}">Download <strong>ZIP File</strong></a></li>
