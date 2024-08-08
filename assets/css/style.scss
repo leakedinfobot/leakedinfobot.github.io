@@ -1,5 +1,18 @@
 ---
 ---
+
+/* Текст виден на всех устройствах по умолчанию */
+.desktop-only {
+    display: block;
+}
+
+/* Скрыть текст на мобильных устройствах */
+@media (max-width: 768px) {
+    .desktop-only {
+        display: none;
+    }
+}
+
 /* Основные стили кнопки */
 .blue-button {
     display: inline-block;
