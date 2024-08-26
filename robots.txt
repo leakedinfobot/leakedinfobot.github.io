@@ -1,6 +1,4 @@
----
-layout: null
-sitemap: false
----
 User-agent: *
+Allow: /
+
 Sitemap: https://leakedinfobot.ru/sitemap.xml
